@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #656a76;
+}
+
+h1 {
+  color: #cad6d1;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5a4d4d;
+}
