@@ -6,6 +6,10 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, "assets")));
 
+app.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "assets", "404.html"));
+});
+
 const products = [
   { id: 1, name: "Laptop", price: 1200 },
   { id: 2, name: "Phone", price: 800 },
